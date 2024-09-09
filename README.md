@@ -1,6 +1,5 @@
-# DashVenue
 <h1>M avenue Dashboard</h1>
-<h2>Description!</h2>
+
 The M Avenue Dashboard is a web application developed with React.js, using JSX for components and SCSS for styling. This dashboard allows administrators to manage users, products, and orders for the M Avenue shopping center. The interface offers smooth navigation and secure login for administrators.
 
 <h2>Project Structure</h2>
