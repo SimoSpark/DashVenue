@@ -20,5 +20,5 @@ The M Avenue Dashboard is a web application developed with React.js, using JSX f
 React.js: JavaScript library for building user interfaces. <br>
 JSX: Syntax for structuring React components. <br>
 SCSS: CSS preprocessor for modular and maintainable styling. <br>
-
-![Dashvenue](https://github.com/user-attachments/assets/40addba5-25bb-4ff2-a3c1-f13d8427495a)
+ <br>
+![Dashvenue front](https://github.com/user-attachments/assets/e9d1285e-fcb7-4d54-a6ec-0769353784c8)
