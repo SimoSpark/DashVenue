@@ -7,14 +7,14 @@ The M Avenue Dashboard is a web application developed with React.js, using JSX f
 │   └── index.html <br>
 ├── src <br>
 │   ├── assets <br>
-│   ├── components
-│   ├── pages
-│   ├── styles
-│   ├── App.jsx
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+│   ├── components <br>
+│   ├── pages <br>
+│   ├── styles <br>
+│   ├── App.jsx <br>
+│   └── index.js <br>
+├── .gitignore <br>
+├── package.json <br>
+└── README.md <br>
 
 <h2>Technologies Used</h2>
 React.js: JavaScript library for building user interfaces.
