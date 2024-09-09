@@ -1,0 +1,77 @@
+$icon_color: #151516de;
+$text_color: #3d3c42;
+
+.sidebar {
+  border-right: 1px solid #eee;
+  height: 100vh;
+  margin-left: 10px;
+
+  .logo {
+    cursor: pointer;
+    padding: 19px 20px;
+    border-bottom: 1px solid #cacaca;
+    border-right: 1px solid #eee;
+    text-align: center;
+    .text_none {
+      text-decoration: none;
+      color: $icon_color;
+      padding: 3px;
+      margin-left: -20px;
+    }
+  }
+
+  .links {
+    margin: 15px 10px;
+   a {
+    color: #0a0a0a;
+   }
+    ul {
+      .spann {
+        text-transform: uppercase;
+        color: gray;
+        margin: 10px 0px 5px;
+        font-size: 14px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-left: 6px;
+        color: $text_color;
+        padding: 5px 10px;
+        font-weight: 500;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 20px;
+        transition: all 0.2s ease;
+
+        // Hover state
+        &:hover {
+          background-color: $icon_color;
+          color: white;
+          font-size: 1.5rem;
+          .icon {
+            color: white;
+            font-size: 1.33rem;
+          }
+        }
+
+        // Active state (when clicked)
+        &:active {
+          background-color: rgb(3, 0, 0);
+          color: white;
+
+          .icon {
+            color: white;
+          }
+        }
+
+        .icon {
+          color: $icon_color;
+          margin-right: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
